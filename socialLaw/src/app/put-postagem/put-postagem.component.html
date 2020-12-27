@@ -1,0 +1,59 @@
+<div class="feed roboto" data-aos="fade-down" data-aos-duration="1000" style="background-color: white">
+    <div class="container shadow-lg p-3 mb-5">
+        <div class="row">
+            <div class="col-md-8 mt-5">
+                <h3 class="text-center mb-4 roboto mt-5">
+                    Edição Postagem
+                </h3>
+
+                <!-- TITULO DA POSTAGEM -->
+                <div class="form-group">
+                    <label class="roboto-mono" for="titulo">Titulo:</label>
+                    <input type="text" class="form-control" id="titulo" placeholder="Digite aqui seu título"
+                        [(ngModel)]='postagem.titulo' />
+                </div>
+
+
+                <!-- TEXTO DA POSTAGEM -->
+                <div class="form-group">
+                    <label class="roboto-mono" for="texto">Texto:</label>
+                    <textarea class="form-control" id="texto" rows="3" placeholder="Digite aqui seu texto"
+                        [(ngModel)]='postagem.artigo'></textarea>
+                </div>
+
+
+                <!-- TEMA DA POSTAGEM -->
+                <div class="row d-flex align-items-end">
+                    <div class="col-md-6">
+                        <div class="form-group m-0">
+                            <label class="roboto-mono" for="tema">
+                                Escolha seu tema </label>
+                            <select name="tema" id='tema' class="form-control" [(ngModel)]='idTema' (change)='findByIdTemas()'>
+                                <option *ngFor='let item of listaTemas' value={{item.id_tema}}>
+                                    {{item.nome}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-end">
+                        <button type="button" class="btn btn-outline-danger w-25" (click)='publicar()'>
+                            Publicar
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- COLUNA PARA O PERFIL LATERAL -->
+            <div class="col-md-4 mt-5">
+                <app-navbar-lateral></app-navbar-lateral>
+            </div>
+
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,95 @@
+/* footer social icons */
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+  
+    padding: 0;
+}
+  
+ul.social-network li {
+    display: inline;
+    margin: 0;
+    padding: 5px;
+  }
+  
+  
+  .faFacebook, .faLinkedin, .faWhatsapp, .faBalanceScale,.faBlackTie, .faInstagram{
+      color: black;
+      width: 30px;
+      height: 30px;
+  }
+  
+  .faFacebook:hover{
+    color: #3b5998;
+  }
+  
+  .faLinkedin:hover{
+  color: #0072b1;
+  }
+  
+  .faInstagram:hover{
+  color: #C13584;
+  }
+
+.faBalanceScale:hover{
+    color: #fd0000;
+}
+
+.faBlackTie:hover{
+    color: #6d636d;
+}
+
+.faWhatsapp:hover{
+    color: #00dd00;
+}
+
+
+
+.fundo {
+    background-color: #000052 !important;
+}
+
+.fundo2 {
+    background-color: #000052 !important;
+}
+
+.fundo3 {
+    background-color: #EBD2BE !important;
+}
+
+.fundo4 {
+    background-color: #FFE8D4 !important;
+}
+
+.fundo5 {
+    background-color: #47A8BD !important;
+}
+
+.fundo6 {
+    background-color: #FFD470 !important;
+}
+
+.fundo7 {
+    background-color: #47A8BD !important;
+}
+
+
+
+
+
+
+
+.cor:hover {
+    color: #A30000;
+}
+
+.cor2:hover {
+    color: #000052;
+}
+
+
+.mt-6,
+.my-6 {
+   margin-top: 5rem !important;
+ }

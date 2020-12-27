@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* Importação das fontes */
+
+/* 
+    Fontes importadas e suas alternativas(fallbacks):
+            font-family: 'MedievalSharp', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Mono', monospace;
+
+*/
+
+/* Criação das classes disponíveis globalmente para as fontes correspondentes */
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.roboto-mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+.medi-sharp {
+  font-family: "MedievalSharp", cursive;
+}

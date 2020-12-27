@@ -1,0 +1,73 @@
+.espacamento {
+  letter-spacing: 0.2rem;
+}
+
+.ml-600 {
+  margin-left: 700px;
+}
+
+.ml-850 {
+  margin-left: 850px;
+}
+
+.ml-sair {
+  margin-left: 1050px;
+}
+
+.btn-sair {
+  color: #ffffff;
+  background-color: #000052;
+  border-color: #ffffff;
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+
+.btn-sair:hover {
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+  -moz-transform: scale(1.15); /* Firefox */
+  -ms-transform: scale(1.15); /* IE 9 */
+  -o-transform: scale(1.15); /* Opera */
+  transform: scale(1.15);
+}
+
+.btn-menu {
+  color: #ffffff;
+  background-color:  #000052;
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+
+.btn-menu:hover {
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+  -moz-transform: scale(1.15); /* Firefox */
+  -ms-transform: scale(1.15); /* IE 9 */
+  -o-transform: scale(1.15); /* Opera */
+  transform: scale(1.15);
+}
+
+.nav-link {
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+.nav-link:hover {
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+  -moz-transform: scale(1.15); /* Firefox */
+  -ms-transform: scale(1.15); /* IE 9 */
+  -o-transform: scale(1.15); /* Opera */
+  transform: scale(1.15);
+}
+
+/* Fonte SOCIAL LAW */
+.medi-sharp {
+  font-size: 1.5em;
+  text-shadow: -3px -3px #a30000;
+}

@@ -1,0 +1,21 @@
+/*Botões*/
+
+.btn-azul{
+    color: #14148b;
+    background-color: #ffffff;
+    border-color: #14148b;
+}
+
+.btn-azul:hover{
+    color: #ffffff;
+    background-color:  #14148b;
+}
+
+
+
+
+
+.pt-6,
+.py-6 {
+  padding-top: 6rem !important;
+}

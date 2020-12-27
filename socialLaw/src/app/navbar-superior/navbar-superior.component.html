@@ -1,0 +1,56 @@
+<nav class="roboto navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:  #000052;">
+
+  <!--Icone-->
+  <a class="navbar-brand" href="#">
+
+      <img src="https://www.flaticon.com/svg/static/icons/svg/2971/2971000.svg" width="30" height="30" alt="">
+
+
+
+    </a>
+  <!--/Icone-->
+
+  <a class="navbar-brand text-uppercase espacamento p-2 nav-link" routerLink = '/home' ><span class="medi-sharp">S</span>ocial <span class="medi-sharp">L</span>aw</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item active">
+        <a class="nav-link p-3 ml-4 " routerLink = '/feed'>Feed <span class="sr-only">(página atual)</span></a>
+      </li>
+
+        <!--Botões-->
+
+
+        <div class="p-2">
+
+          <form class="form-inline my-2 my-lg-0">
+
+
+            <div *ngIf='auth.btnLogin()'>
+              <img class="ml-850" src="assets/login.png" width="30" height="30" alt="">
+              <button class="btn btn-menu ml-2" routerLink='/logar'>Login</button>
+            </div>
+
+            <div *ngIf='auth.btnLogin()'>
+              <button class="btn btn-menu ml-4 justify-content-end " routerLink='/cadastrar'>Cadastrar</button>
+            </div>
+
+            <div *ngIf='auth.btnSair()'>
+              <button class="btn btn-sair ml-sair" (click)= 'sair()'>Sair</button>
+            </div>
+
+
+            </form>
+
+        </div>
+        <!--/Botões-->
+
+    </ul>
+  </div>
+</nav>
